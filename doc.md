@@ -23,3 +23,22 @@ laravel parrot is a laravel module based
 ---
 
 * [code4mk](https://code4mk.org)
+
+```php 
+function combineLinearArray( $arrayToSmush, $evenItemIsKey = true ) {
+    if ( ( count($arrayToSmush) % 2 ) !== 0 ) {
+        throw new Exception( "This array cannot be combined because it has an odd number of values" );
+    }
+    $evens = $odds = array();
+    // Separate even and odd values
+    for ($i = 0, $c = count($arrayToSmush); $i < $c; $i += 2) {
+        $evens[] = $arrayToSmush[$i];
+        $odds[] = $arrayToSmush[$i+1];
+    }
+    // Combine them and return
+    return ( $evenItemIsKey ) ? array_combine($evens, $odds) : array_combine($odds, $evens);
+}
+
+```
+
+
