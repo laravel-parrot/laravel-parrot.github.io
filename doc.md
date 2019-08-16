@@ -82,3 +82,21 @@ export default {
 </style>
 ```
 
+```ruby
+class Palindrome::Controller
+
+  def initialize(service, persistence)
+    @service = service
+    @persistence = persistence
+  end
+
+  def check(word)
+    [{:word=>word, :palindrome=>@service.palindrome?(word)}, :show]
+  end
+
+  def list
+    [{:words=>@persistence.list}, :list]
+  end
+
+end
+```
