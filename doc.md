@@ -43,6 +43,7 @@ function combineLinearArray( $arrayToSmush, $evenItemIsKey = true ) {
 
 
 ```html 
+<!-- test.vue -->
 <template>
   <ul>
     <li v-for="todo in todos">
