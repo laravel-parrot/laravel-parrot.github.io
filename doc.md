@@ -12,6 +12,11 @@ author: kamal
 
 laravel parrot is a laravel module based
 
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+
+
 # use
 
 <table class="table table-dark">
