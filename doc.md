@@ -16,6 +16,13 @@ laravel parrot is a laravel module based
   A simple primary alert—check it out!
 </div>
 
+<div class="" v-if="2==3">
+      <h1>this is two</h1>
+  </div>
+ <div class="" v-else>
+     <h1>this is not two</h1>
+ </div>
+
 
 # use
 
