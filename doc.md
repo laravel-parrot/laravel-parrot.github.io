@@ -24,6 +24,9 @@ laravel parrot is a laravel module based
 * test 2
 * test 3
 
+1. First ordered list item
+2. Another item
+
 
 ~ `kamal is here` ok
 
