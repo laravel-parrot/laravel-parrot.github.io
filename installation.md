@@ -1,5 +1,5 @@
 ---
-title: this is title
+title: laravel parrot installation
 description: this is description
 author: kamal
 ---
