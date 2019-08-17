@@ -34,7 +34,8 @@ laravel parrot is a laravel module based
 
 * [code4mk](https://code4mk.org)
 
- ```java 
+
+```java 
  public class Palindrome {
 
 	public static void main(String[] args) {
@@ -62,7 +63,7 @@ laravel parrot is a laravel module based
 	}
 }
  
- ```
+```
 
 
 ```php 
