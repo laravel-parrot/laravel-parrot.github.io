@@ -1,3 +1,9 @@
+---
+title: details page
+description: this is description
+author: kamal
+---
+
 # laravel-parrot.github.io
 laravel parrot 
 
