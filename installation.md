@@ -1,5 +1,5 @@
 ---
-title: laravel parrot installation
+title: laravel parrot installation 1.0.1
 description: this is description
 author: kamal
 ---
