@@ -1,5 +1,5 @@
 ---
-title: this is title
+title: The ChangeLog
 description: this is description
 author: kamal
 ---
